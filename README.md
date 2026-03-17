@@ -1,27 +1,17 @@
-# 🍫 Chocolate Sales Performance — Power BI Dashboard
+#  Chocolate Sales Performance — Power BI Dashboard
 
-> An interactive Power BI dashboard analysing $19.79M in global chocolate sales across 3,282 transactions (2022–2024) — tracking revenue trends, year-over-year growth, top sales personnel, country performance, and product profitability using 25+ custom DAX measures.
 
----
 
-## 📌 Project Overview
+##  Project Overview
 
 This project delivers a **single-page interactive Power BI dashboard** for **Chocolate Cacao Company**, transforming raw sales data into executive-ready insights. The dashboard covers 3 years of performance data (2022–2024) across 6 countries, 25 sales representatives, and 22 products — with dynamic year filtering, 3-month moving averages, YoY comparisons, and intelligent performance messaging built entirely in DAX.
 
 ---
 
-## 📂 Repository Structure
-
-```
-chocolate-sales-powerbi-dashboard/
-│
-├── Chocolate_Sales.csv              # Raw dataset (3,282 records)
-└── README.md                        # Project documentation
-```
 
 ---
 
-## 📊 Dataset Overview
+##  Dataset Overview
 
 **Source:** Chocolate Sales Dataset | **Records:** 3,282 transactions | **Period:** 2022 – 2024
 
@@ -47,7 +37,7 @@ A **Calendar table** was created and linked to the sales table via a one-to-many
 
 ---
 
-## 🖥️ Dashboard Features
+##  Dashboard Features
 
 ### KPI Cards (Top Row)
 | KPI | 2022 | 2023 | 2024 | All Years |
@@ -59,15 +49,15 @@ A **Calendar table** was created and linked to the sales table via a one-to-many
 | **YoY Growth %** | — | 7.44% | 4.83% | **54.30%** |
 
 ### Visuals
-- 📈 **Revenue Trend Line Chart** — Monthly Total Revenue with 3-Month Moving Average overlay
-- 📋 **Product Performance Table** — Product, Total Revenue, YoY Sales Growth %, Country, Top 5 Flag
-- 🔀 **Decomposition Tree** — Revenue broken down by Sales Person → Country → Product
-- 💬 **Dynamic Performance Message** — Auto-generated insight text based on YoY performance
-- 🎛️ **Interactive Filters** — Country slicer, Year slicer (2022 / 2023 / 2024), Product slicer
+-  **Revenue Trend Line Chart** — Monthly Total Revenue with 3-Month Moving Average overlay
+-  **Product Performance Table** — Product, Total Revenue, YoY Sales Growth %, Country, Top 5 Flag
+-  **Decomposition Tree** — Revenue broken down by Sales Person → Country → Product
+-  **Dynamic Performance Message** — Auto-generated insight text based on YoY performance
+-  **Interactive Filters** — Country slicer, Year slicer (2022 / 2023 / 2024), Product slicer
 
 ---
 
-## 🔢 DAX Measures Used
+##  DAX Measures Used
 
 | Measure | Purpose |
 |---|---|
@@ -104,9 +94,9 @@ A **Calendar table** was created and linked to the sales table via a one-to-many
 
 ---
 
-## 💡 Key Findings
+##  Key Findings
 
-### 💰 Overall Performance (2022–2024)
+### Overall Performance (2022–2024)
 | Metric | Value |
 |---|---|
 | **Total Revenue** | $19,791,572 |
@@ -117,7 +107,7 @@ A **Calendar table** was created and linked to the sales table via a one-to-many
 
 ---
 
-### 📅 Year-on-Year Revenue Growth
+###  Year-on-Year Revenue Growth
 | Year | Revenue | YoY Growth |
 |---|---|---|
 | 2022 | $6,183,625 | — |
@@ -128,7 +118,7 @@ A **Calendar table** was created and linked to the sales table via a one-to-many
 
 ---
 
-### 🌍 Revenue by Country
+###  Revenue by Country
 | Country | Total Revenue |
 |---|---|
 | **Australia** | $3,646,444 |
@@ -142,7 +132,7 @@ A **Calendar table** was created and linked to the sales table via a one-to-many
 
 ---
 
-### 🏆 Top 5 Sales Representatives
+###  Top 5 Sales Representatives
 | Rank | Sales Person | Total Revenue |
 |---|---|---|
 | 1 | **Dennison Crosswaite** | $931,850 |
@@ -155,7 +145,7 @@ A **Calendar table** was created and linked to the sales table via a one-to-many
 
 ---
 
-### 🍫 Top 10 Products by Revenue
+###  Top 10 Products by Revenue
 | Rank | Product | Total Revenue |
 |---|---|---|
 | 1 | **Smooth Sliky Salty** | $1,120,201 |
@@ -171,7 +161,7 @@ A **Calendar table** was created and linked to the sales table via a one-to-many
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 | Tool | Usage |
 |---|---|
@@ -182,17 +172,3 @@ A **Calendar table** was created and linked to the sales table via a one-to-many
 
 ---
 
-## 👤 Author
-
-**Abdulfattah (Adebayo Abdulfatai Ayinde)**
-Data Analyst | Accounting Graduate | Interior Decorator
-
-> *"Turning raw numbers into meaningful stories."*
-
-- 🐙 GitHub: [@fattah-canvas](https://github.com/fattah-canvas)
-
----
-
-## 📝 License
-
-This project is for portfolio and educational purposes.
